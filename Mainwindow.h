@@ -16,12 +16,13 @@ public:
     ~MainWindow();
 
 private slots:
-    void New();
-    void Open();
-    void Save();
-    void Exit();
+    void NewDocument();//new a file
+    void OpenDocument();//open a file
+    void SaveDocument();//save a file
+    void Exit();//exit this software
 
 private:
+    QString m_FileName; //save filename_now
     Ui::MainWindow *ui;
 };
 #endif // MAINWINDOW_H
