@@ -11,8 +11,8 @@
 The repository only stores the Qt source code of the program, not the executable version, if you need to use, please download your own compilation package
 
 ## 当前进度
-实现了一个主窗口
+实现了一个主窗口，能实现新建、打开、保存、退出
 
 ## Current progress
 
-A main window is implemented
+A main window is realized, which can create, open, save and exit
